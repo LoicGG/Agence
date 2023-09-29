@@ -31,7 +31,7 @@ var parallaxPage = function(name, pageHtml){
 					}
 					if(typeof this.preload === 'function'){
 						this.preload();
-					}
+					} 
 					this.slide({left:0,top:0}, function(){
 						thisPage.makeCurrent();
 						parallax.sliding = false;
